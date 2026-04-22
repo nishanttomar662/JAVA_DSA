@@ -10,8 +10,10 @@ class Solution {
         }
         int res=0;
         for(int i=0;i<=n;i++){
-            if(hasharray[i]==0)
+            if(hasharray[i]==0){
             res=i;
+            break;
+            }
     
         }
         return res;
